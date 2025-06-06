@@ -23,7 +23,7 @@ cặp song sinh nhẹ cân và nặng cân hơn.
 
 
 *twin_pairs_T_3years_samesex.csv* bao gồm cân nặng khi sinh tính bằng gam của cả hai cặp song sinh trong
-cặp, dbirt_0 và dbirt_1. Cặp nhẹ cân nhất luôn đứng đầu. Tôi đã loại bỏ tất cả các cặp có
+cặp, dbirt_0 và dbirt_1. Cặp nhẹ cân nhất luôn đứng đầu. Đã loại bỏ tất cả các cặp có
 cùng cân nặng.        
 ![t](https://github.com/user-attachments/assets/586f0e76-43c9-4c4b-b9d1-df455b994418)                
 
