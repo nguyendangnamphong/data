@@ -1,3 +1,4 @@
+# Mối quân hệ nhân quả trong tiền sinh sản với khả năng sống sót của trẻ sinh đôi    
 **Nguồn**          
 Từ: báo cáo về sinh đôi tại Hoa Kỳ năm 1989-1991.      
 Dữ liệu thô được lấy từ: [link](http://www.nber.org/data/linked-birth-infant-death-data-vital-statistics-data.html)         
@@ -9,7 +10,7 @@ Hướng dẫn về tập dữ liệu: [link](http://www.nber.org/lbid/docs/Link
 
  **Nội dung dữ liệu**          
 * *A1_progressOfBorn.csv*: chứa thông tin về 71 344 cặp sinh đôi trong vòng 3 năm          
-- Dữ liệu ban đầu bao gồm, 50 biến liên quan đến cha mẹ của cặp cặp song sinh như: tuổi của mẹ và cha, trình độ học vấn, các biến chứng về sức khỏe, v.v.. 
+- Dữ liệu ban đầu bao gồm, 53 biến liên quan đến cha mẹ của cặp cặp song sinh như: tuổi của mẹ và cha, trình độ học vấn, các biến chứng về sức khỏe, v.v.. 
 ![x_old](https://github.com/user-attachments/assets/b0305c1a-37a9-4d9a-a21e-c77980c29284)                
 
 -  Do thấy có vẻ không cần thiết, em đã xóa bớt đi, chỉ để lại 8 thuộc tính:
@@ -47,7 +48,7 @@ và mort_1.
 
 **Bên lề**          
 *Bài báo từng sử dụng dữ liệu:* [Causal Effect Variational Autoencoder](https://arxiv.org/pdf/1705.08821)             
-*Dữ liệu sử dụng:* Dữ liệu gốc của quân đội Hoa Kì (Bản 50 biến)        
+*Dữ liệu sử dụng:* Dữ liệu gốc của quân đội Hoa Kì (Bản 53 biến)        
 *Mục tiêu sử dụng:* Tìm hiểu yếu tố ẩn trong quan hệ nhân quả        
 *Mô hình sử dụng:* CEVAE (Deep learning)
 
