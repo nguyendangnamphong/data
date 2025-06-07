@@ -13,13 +13,17 @@ http://www.nber.org/lbid/docs/LinkCO89Guide.pdf
 Ý tưởng về tập dữ liệu dựa trên bài báo:       
 Almond, Douglas, Kenneth Y. Chay và David S. Lee. "Chi phí cho trẻ sinh nhẹ cân."       
 
-Tạp chí Kinh tế Quý 120.3 (2005): 1031-1083.       
+Tạp chí Kinh tế Quý 120.3 (2005): 1031-1083.          
 
-*twin_pairs_X_3years_samesex.csv* bao gồm 50 biến phụ thuộc cho cặp song sinh như tuổi của mẹ     
+ **Thay đổi về mặt dữ liệu**         
+ 
+*A1_progressOfBorn.csv* gốc bao gồm 50 biến phụ thuộc cho cặp song sinh như tuổi của mẹ     
 và cha, trình độ học vấn, các biến chứng về sức khỏe, v.v. Các đặc điểm
 khác nhau giữa các cặp như giới tính và thứ tự sinh được biểu thị bằng _0 và _1 cho
 cặp song sinh nhẹ cân và nặng cân hơn.           
-![x](https://github.com/user-attachments/assets/b0305c1a-37a9-4d9a-a21e-c77980c29284)                   
+![x](https://github.com/user-attachments/assets/b0305c1a-37a9-4d9a-a21e-c77980c29284)     
+Nhưng do không cần thiết nữa, nên đã được xóa bớt đi còn lại 
+#đang dở#
 
 
 *twin_pairs_T_3years_samesex.csv* bao gồm cân nặng khi sinh tính bằng gam của cả hai cặp song sinh trong
