@@ -28,8 +28,7 @@ Hướng dẫn về tập dữ liệu: [link](http://www.nber.org/lbid/docs/Link
 
 
 * *A2_weighOfBorn.csv*: chứa thông cân nặng khi sinh tính bằng gam của cả hai cặp song sinh trong
-cặp, dbirt_0 và dbirt_1. Cặp nhẹ cân nhất luôn đứng đầu. Đã loại bỏ tất cả các cặp có
-cùng cân nặng.        
+cặp, dbirt_0 và dbirt_1.                    
 ![t](https://github.com/user-attachments/assets/586f0e76-43c9-4c4b-b9d1-df455b994418)                
 
 
@@ -47,7 +46,7 @@ và mort_1.
 
 
 **Bên lề**          
-*Bài báo từng sử dụng dữ liệu:* [Causal Effect Variational Autoencoder](https://arxiv.org/pdf/1705.08821)             
+*Bài báo cũng sử dụng dữ liệu:* [Causal Effect Variational Autoencoder](https://arxiv.org/pdf/1705.08821)             
 *Dữ liệu sử dụng:* Dữ liệu gốc của quân đội Hoa Kì (Bản 53 biến)        
 *Mục tiêu sử dụng:* Tìm hiểu yếu tố ẩn trong quan hệ nhân quả        
 *Mô hình sử dụng:* CEVAE (Deep learning)
