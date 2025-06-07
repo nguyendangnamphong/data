@@ -1,0 +1,10 @@
+{
+ 'adequacy': 'adequacy of care',
+ 'birattnd': 'medical person attending birth',
+ 'bord_0': 'birth order of lighter twin',
+ 'bord_1': 'birth order of heavier twin',
+ 'cigar6': 'num of cigarettes /day, quantiled',
+ 'drink5': 'num of drinks /week, quantiled',
+ 'mpre5': 'trimester prenatal care begun, 4 is none',
+ 'nprevistq': 'quintile number of prenatal visits'
+}
