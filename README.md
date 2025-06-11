@@ -1,4 +1,4 @@
-# Bộ Dữ Liệu Về Quan hệ Nhân Quả Giữa Hợp Kim Đồng Với Hiệu Suất Dẫn Điện
+# Dữ Liệu Về Quan hệ Nhân Quả Giữa Hợp Kim Đồng Với Hiệu Suất Dẫn Điện
        
 **Giới Thiệu**             
 Bộ dữ liệu này chứa thông tin về các hợp kim đồng (Cu) với các thành phần hóa học khác nhau (Ni, Si, Be, Ti, Mg, v.v.), điều kiện xử lý (nhiệt độ, thời gian), và hiệu suất dẫn điện (%IACS).                
