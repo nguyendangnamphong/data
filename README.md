@@ -1,4 +1,4 @@
-# Dữ Liệu Về Quan hệ Nhân Quả Giữa Hợp Kim Đồng Với Hiệu Suất Dẫn Điện
+# Dữ Liệu Về Quan hệ Nhân Quả Giữa Các Chất Của Hợp Kim Đồng Với Hiệu Suất Dẫn Điện
        
 **Giới Thiệu**                          
 *Mục tiêu*: nghiên cứu tác động của luật nhân quả, khi thay đổi các chất trong Hợp Kim Đồng, sẽ dẫn đến thay đổi của Hiệu Suất Dẫn Điện như thế nào.                  
