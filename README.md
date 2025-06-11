@@ -19,7 +19,7 @@ Dữ liệu được tổ chức dưới dạng các dòng, mỗi dòng đại d
 
 Ví dụ: Cu-2.8Ni-0.7Si-0.17V;Cu-Ni-Si alloys;96.33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2.8;0;0;0;0.7;0;0;0.17;0;0;1223;2;75;Y;723;20;Y;167;;;37;`https://doi.org/10.1007/s12540-013-4002-x`
              
-Giải thích: Hợp kim chứa 96.33% Cu, 2.8% Ni, 0.7% Si, 0.17% V; xử lý ở 1223K trong 2 giờ; hiệu suất dẫn điện đạt 37% IACS, còn link là để giải là để giải thích cách họat động của dữ liệu (khi data cleaning thì em sẽ bỏ nó sau)    
+Giải thích: Hợp kim chứa 96.33% Cu, 2.8% Ni, 0.7% Si, 0.17% V; xử lý ở 1223K trong 2 giờ; hiệu suất dẫn điện đạt 37% IACS,   còn *link* là để người ta gắn vào để giải thích cách họat động của dữ liệu (khi data cleaning thì em sẽ bỏ nó sau)            
          
 
 **Mục Đích và Ứng Dụng**        
@@ -43,5 +43,6 @@ Chạy DML: Sử dụng thư viện như econml trong Python để ước lượ
      
 Biến điều trị: %Ni.    
 Biến kết quả: %IACS.     
-Biến kiểm soát: %Si, %Cu, nhiệt độ, thời gian.Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu suất dẫn điện sau khi loại bỏ tác động của các yếu tố khác.    
+Biến kiểm soát: %Si, %Cu, nhiệt độ, thời gian.               
+Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu suất dẫn điện sau khi loại bỏ tác động của các yếu tố khác.    
 
