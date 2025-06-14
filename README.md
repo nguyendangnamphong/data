@@ -10,7 +10,7 @@ Dữ liệu được tổ chức dưới dạng các dòng, mỗi dòng đại d
 
 *Tên hợp kim:* Ví dụ, Cu-2.8Ni-0.7Si-0.17V, Cu-1.7Be, .v.v....                    
 *Loại hợp kim:* Ví dụ, Cu-Ni-Si alloys, Cu-Be alloys, .v.v....       
-*Thành phần hóa học:* Phần trăm khối lượng của các nguyên tố (Cu, Ni, Si, Be, Ti, Mg, v.v.).      
+*Thành phần hóa học:* Phần trăm khối lượng của các nguyên tố (Cu, Be, Ag, Ti, Zr, Mg, Zn, P, Cr).      
 *Điều kiện xử lý:* Nhiệt độ (K), thời gian (giờ), và các thông số liên quan.        
 *Hiệu suất dẫn điện:* Đo bằng %IACS (International Annealed Copper Standard).                 
 
