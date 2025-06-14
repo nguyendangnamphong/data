@@ -1,7 +1,8 @@
 # Thay đổi thành phần hợp kim có ảnh hưởng thế nào đến độ dẫn điện
        
 **Giới Thiệu**                          
-*Mục tiêu*: nghiên cứu tác động của luật nhân quả, khi thay đổi các chất trong Hợp Kim Đồng, sẽ dẫn đến thay đổi của Hiệu Suất Dẫn Điện như thế nào.                  
+*Mục tiêu*: nghiên cứu tác động của luật nhân quả, khi thay đổi các chất trong Hợp Kim Đồng, sẽ dẫn đến thay đổi của Hiệu Suất Dẫn Điện như thế nào.     
+*Số lượng*: 1831 bản ghi           
 *Nguồn dữ liệu:* [springernature]( https://springernature.figshare.com/articles/dataset/Dataset_of_mechanical_properties_and_electrical_conductivity_of_copper-based_alloys/23735373?file=41670945)             
            
 **Cấu Trúc Bộ Dữ Liệu**         
