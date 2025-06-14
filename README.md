@@ -1,4 +1,4 @@
-# Dữ Liệu Về Quan hệ Nhân Quả Giữa Các Chất Của Hợp Kim Đồng Với Hiệu Suất Dẫn Điện
+# Thay đổi thành phần hợp kim có ảnh hưởng thế nào đến độ dẫn điện
        
 **Giới Thiệu**                          
 *Mục tiêu*: nghiên cứu tác động của luật nhân quả, khi thay đổi các chất trong Hợp Kim Đồng, sẽ dẫn đến thay đổi của Hiệu Suất Dẫn Điện như thế nào.                  
@@ -19,7 +19,9 @@ Dữ liệu được tổ chức dưới dạng các dòng, mỗi dòng đại d
 
 Ví dụ: Cu-2.8Ni-0.7Si-0.17V;Cu-Ni-Si alloys;96.33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2.8;0;0;0;0.7;0;0;0.17;0;0;1223;2;75;Y;723;20;Y;167;;;37;`https://doi.org/10.1007/s12540-013-4002-x`
              
-Giải thích: Hợp kim chứa 96.33% Cu, 2.8% Ni, 0.7% Si, 0.17% V; xử lý ở 1223K trong 2 giờ; hiệu suất dẫn điện đạt 37% IACS,   còn *link* là để người ta gắn vào để giải thích cách họat động của dữ liệu (khi data cleaning thì em sẽ bỏ nó sau)            
+Giải thích: Hợp kim chứa 96.33% Cu, 2.8% Ni, 0.7% Si, 0.17% V; xử lý ở 1223K trong 2 giờ; hiệu suất dẫn điện đạt 37% IACS,   còn *link* là để người ta gắn vào để giải thích cách họat động của dữ liệu (khi data cleaning thì em sẽ bỏ nó sau)        
+       
+*Phụ chú*: Dấu "-" không phải là âm mà là dấu ngăn cách     
          
 
 **Mục Đích và Ứng Dụng**        
