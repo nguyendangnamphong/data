@@ -66,7 +66,7 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
 
 
 
-**Dữ liệu mới sau khi phân loại dữ liệu**
+**Dữ liệu mới sau khi phân loại dữ liệu (file cleaned_data)**
 + Alloy_Name: Tên hợp kim (ví dụ Cu–Al–Ni, Cu–Zn–Sn…)             
 
 + Alloy_Type: Phân loại hợp kim (ví dụ “brass” – thau, “bronze” – đồng thau, “pure” – đồng nguyên chất…)           
