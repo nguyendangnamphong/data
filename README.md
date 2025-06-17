@@ -62,5 +62,45 @@ Chạy DML: Sử dụng thư viện như econml trong Python để ước lượ
 Biến điều trị: %Ni.    
 Biến kết quả: %IACS.     
 Biến kiểm soát: %Si, %Cu, nhiệt độ, thời gian.               
-Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu suất dẫn điện sau khi loại bỏ tác động của các yếu tố khác.    
+Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu suất dẫn điện sau khi loại bỏ tác động của các yếu tố khác.         
+
+
+
+**Dữ liệu mới sau khi phân loại dữ liệu**
++ Alloy_Name: Tên hợp kim (ví dụ Cu–Al–Ni, Cu–Zn–Sn…)             
+
++ Alloy_Type: Phân loại hợp kim (ví dụ “brass” – thau, “bronze” – đồng thau, “pure” – đồng nguyên chất…)           
+
++ *Cu, Al, Ag, B, Be, Ca, Co, Ce, Cr, Fe, Hf, La, Mg, Mn, Mo, Nb, Nd, Ni, P, Pb, Pr, Si, Sn, Ti, V, Zn, Z*r: Phần trăm khối lượng (% wt) các nguyên tố trong hợp kim.          
+
++ *Solid_Solution_Temp_K*: Nhiệt độ xử lý hòa tan (solid solution treatment) tính theo Kelvin          
+
++ *Solid_Solution_Time_h*: Thời gian giữ ở nhiệt độ hòa tan (tính bằng giờ)          
+
++ *Cold_Rolling_Reduction*: Tỉ lệ giảm độ dày trong quá trình cán nguội (cold rolling reduction), thường tính bằng phần trăm     
+
++ *Secondary_Treatment_YN*: Cho biết có thực hiện xử lý nhiệt phụ (secondary heat treatment) sau cán nguội hay không (Y/N)       
+
++ *Aging_Temp_K*: Nhiệt độ lão hóa (aging) tính theo Kelvin          
+
++ *Aging_Time_h*: Thời gian lão hóa tính bằng giờ         
+
++ *Secondary_Mech_YN*: Cho biết có thực hiện gia công cơ khí phụ (secondary mechanical working) sau lão hóa hay không (Y/N)         
+
++ *Hardness_HV*: Độ cứng theo thang Vickers (HV)        
+
++ *Yield_Strength_MPa*: Giới hạn chảy (yield strength) tính bằng megapascals (MPa)             
+
++ *Ultimate_Tensile_Strength_MPa*: Độ bền kéo tối đa (ultimate tensile strength) tính bằng MPa             
+
++ *Electrical_Conductivity_IACS*: Độ dẫn điện so với chuẩn IACS (International Annealed Copper Standard), tính bằng phần trăm            
+
++ *DOI*: Mã DOI (Digital Object Identifier) của bài báo hoặc nguồn dữ liệu gốc (hiện vẫn được để lại để hiểu dữ liệu, ngay khi chạy để phân tích em sẽ xóa bỏ)
+
+
+  **Vấn đề hiện tại - dữ liệu thưa**
+  ![vấn đề](https://github.com/user-attachments/assets/92d190ab-96e6-4971-ad33-dde93e0fd517)
+
+  
+
 
