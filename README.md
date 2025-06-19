@@ -101,6 +101,18 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   **Vấn đề hiện tại - dữ liệu thưa**
   ![vấn đề](https://github.com/user-attachments/assets/92d190ab-96e6-4971-ad33-dde93e0fd517)
 
+  *Số lượng bị thiếu*
+  + Solid_Solution_Temp_K: 48
+  + Cold_Rolling_Reduction: 63             
+  + Secondary_Treatment_YN: 0          
+  + Aging_Temp_K: 91     
+  + Aging_Time_h: 91
+  + Secondary_Mech_YN: 18
+  + Hardness_HV: 216
+  + Yield_Strength_MPa: 1658
+  + Ultimate_Tensile_Strength_MPa: 1555
+  + Electrical_Conductivity_IACS: 5       
+
   
 
 
