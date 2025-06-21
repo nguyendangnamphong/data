@@ -122,7 +122,14 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   + Solid_Solution_Temp_K: Nhiệt độ hòa tan ban đầu, ảnh hưởng đến trạng thái trước thay đổi, tác động đến độ dẫn điện.
              
   *Loại bỏ các dữ liệu bị thiếu*: 141         
-  *Số dữ liệu còn lại*: 1690                           
+  *Số dữ liệu còn lại*: 1690
+                 
+  **Các biểu đồ mới về dữ liệu**            
+  + Boxplot: Hiển thị phân bố của độ dẫn điện, %Ni, %Si, và các biến điều kiện, phát hiện ngoại lai.           
+  + Scatter Plot: Kiểm tra mối quan hệ giữa thành phần hợp kim (%Ni, %Si) và độ dẫn điện, hoặc giữa biến điều kiện và độ dẫn điện.         
+  + Correlation Heatmap: Xác định tương quan giữa các biến, hỗ trợ chọn biến kiểm soát và phát hiện đa cộng tuyến.         
+  + Histogram: Xem phân bố chi tiết của độ dẫn điện và các biến quan trọng, kiểm tra tính chất phân bố.           
+  + Violin Plot: So sánh phân bố độ dẫn điện giữa các nhóm hợp kim hoặc xem phân bố chi tiết hơn của các biến.                                
   
 
 
