@@ -96,10 +96,10 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
 + *Electrical_Conductivity_IACS*: Độ dẫn điện so với chuẩn IACS (International Annealed Copper Standard), tính bằng phần trăm            
 
 + *DOI*: Mã DOI (Digital Object Identifier) của bài báo hoặc nguồn dữ liệu gốc (hiện vẫn được để lại để hiểu dữ liệu, ngay khi chạy để phân tích em sẽ xóa bỏ)
+                 
 
-
-  **Vấn đề hiện tại - dữ liệu thưa**
-  ![vấn đề](https://github.com/user-attachments/assets/92d190ab-96e6-4971-ad33-dde93e0fd517)
+  **Vấn đề dữ liệu thưa**              
+  ![vấn đề](https://github.com/user-attachments/assets/92d190ab-96e6-4971-ad33-dde93e0fd517)         
 
   *Số lượng bị thiếu*
   + Solid_Solution_Temp_K: 48
@@ -111,8 +111,18 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   + Hardness_HV: 216
   + Yield_Strength_MPa: 1658
   + Ultimate_Tensile_Strength_MPa: 1555
-  + Electrical_Conductivity_IACS: 5       
-
+  + Electrical_Conductivity_IACS: 5
+            
+             
+   **Hoàn thiện datacleaning - filtered_data.csv**                   
+  *Giảm bớt số lượng biến điều kiện*: tiêu chí dựa trên số lượng dữ liệu thiếu và xác suất ảnh hưởng đến dữ liệu           
+  *Các điều kiện giữ lại*:
+  + Aging_Temp_K: Nhiệt độ thay đổi, ảnh hưởng đến sự hình thành kết tủa, làm thay đổi độ dẫn điện.          
+  + Aging_Time_h: Thời gian thay đổi, quyết định mức độ kết tủa, tác động đến độ dẫn điện.        
+  + Solid_Solution_Temp_K: Nhiệt độ hòa tan ban đầu, ảnh hưởng đến trạng thái trước thay đổi, tác động đến độ dẫn điện.
+             
+  *Loại bỏ các dữ liệu bị thiếu*: 141         
+  *Số dữ liệu còn lại*: 1690                           
   
 
 
