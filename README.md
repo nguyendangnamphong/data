@@ -124,14 +124,8 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   *Loại bỏ các dữ liệu bị thiếu*: 141         
   *Số dữ liệu còn lại*: 1690
                  
-  **Các biểu đồ mới về dữ liệu**            
-  + Boxplot: Hiển thị phân bố của độ dẫn điện, %Ni, %Si, và các biến điều kiện, phát hiện ngoại lai.           
-  + Scatter Plot: Kiểm tra mối quan hệ giữa thành phần hợp kim (%Ni, %Si) và độ dẫn điện, hoặc giữa biến điều kiện và độ dẫn điện.         
-  + Correlation Heatmap: Xác định tương quan giữa các biến, hỗ trợ chọn biến kiểm soát và phát hiện đa cộng tuyến.         
-  + Histogram: Xem phân bố chi tiết của độ dẫn điện và các biến quan trọng, kiểm tra tính chất phân bố.           
-  + Violin Plot: So sánh phân bố độ dẫn điện giữa các nhóm hợp kim hoặc xem phân bố chi tiết hơn của các biến.
                   
-  **Box Plot**
+  **Box Plot cho các điều kiện và kết quả**
 
   *solid_solution_temp*           
   ![solid_solution_temp_boxplot](https://github.com/user-attachments/assets/b984befd-6c9f-47e4-a622-1031c55393b9)
@@ -143,7 +137,17 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   ![aging_time_boxplot](https://github.com/user-attachments/assets/6c9d0a96-c71c-40a2-bf1a-dbd3f7210880)
 
   *conductivity*
-  ![conductivity_boxplot](https://github.com/user-attachments/assets/d8f60acf-bcb5-483c-b7aa-79827a5eecdd)                 
+  ![conductivity_boxplot](https://github.com/user-attachments/assets/d8f60acf-bcb5-483c-b7aa-79827a5eecdd)
+
+   **HeatMap**
+
+    *HeatMap các chất*                            
+  ![chemical_heatmap](https://github.com/user-attachments/assets/32947fd7-94f4-4da8-8ec0-195206d151ce)
+
+  *HeatMap kết hợp với ma trận tương quan*
+  ![correlation_heatmap_corrected](https://github.com/user-attachments/assets/529f2db6-0f45-47c4-aa14-528a85ca3cf9)          
+            
+                 
 
 
 
