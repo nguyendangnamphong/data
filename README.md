@@ -144,8 +144,9 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
     *HeatMap các chất*                            
   ![chemical_heatmap](https://github.com/user-attachments/assets/32947fd7-94f4-4da8-8ec0-195206d151ce)
 
-  *HeatMap kết hợp với ma trận tương quan*
-  ![correlation_heatmap_corrected](https://github.com/user-attachments/assets/529f2db6-0f45-47c4-aa14-528a85ca3cf9)          
+  *HeatMap kết hợp với ma trận tương quan*          
+![correlation_heatmap_corrected](https://github.com/user-attachments/assets/a198867b-79f3-4fbc-acec-debb52424a1d)                
+     
             
                  
 
