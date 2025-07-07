@@ -143,7 +143,22 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
 
     *HeatMap các chất*                            
   ![chemical_heatmap](https://github.com/user-attachments/assets/32947fd7-94f4-4da8-8ec0-195206d151ce)
+  *Phân tích HeatMap các chất:*       
+  + Đồng (Cu): Là thành phần chính, xuất hiện với tỷ lệ cao (khoảng 90-99%) ở hầu hết các loại hợp kim.        
+  + Điều này được thể hiện qua các vùng màu đậm liên tục trên cột Cu, cho thấy vai trò nền tảng của đồng trong việc đảm bảo tính dẫn điện.               
+  *Các Chất Phụ Gia Chính (Ni, Si, Al):*       
+  + Niken (Ni) và Silic (Si): Có sự biến thiên rõ rệt giữa các loại hợp kim.  Ví dụ, trong "hợp kim Cu-Ni-Si", Ni và Si có tỷ lệ cao hơn (khoảng 2-5%), được biểu thị bằng các vùng màu đậm, cho thấy chúng được thêm vào để tăng độ bền, dù có thể làm giảm độ dẫn điện.      
+  + Nhôm (Al): Xuất hiện với tỷ lệ trung bình đến cao ở một số hợp kim cụ thể như "hợp kim Cu-Al", thường liên quan đến khả năng chống ăn mòn.          
+ *Các Nguyên Tố Vi Lượng (Mn, Mo, Nb, Pb):*          
+  + Mangan (Mn), Molybden (Mo), Niobi (Nb) và Chì (Pb): Thường có tỷ lệ rất thấp hoặc bằng 0, được biểu thị bằng các vùng màu nhạt hoặc trắng.           
+  + Điều này cho thấy chúng là các chất phụ gia nhỏ hoặc không được sử dụng, có thể do tính chất hiếm (Mo, Nb) hoặc độc tính (Pb).
 
+                     
+ *Sự phân bố này giúp làm rõ vai trò của từng chất trong thiết kế hợp kim đồng:*                 
+  + Cu cao và ổn định đảm bảo tính dẫn điện tốt, là yếu tố chính trong nghiên cứu của bạn về ảnh hưởng của thành phần hóa học lên độ dẫn điện.          
+  + Các chất như Ni và Si được thêm có chọn lọc để cải thiện tính chất cơ học, nhưng có thể làm giảm độ dẫn điện.         
+  + Các nguyên tố vi lượng ít xuất hiện, cho thấy chúng không phải là trọng tâm trong đa số hợp kim đồng.                 
+          
   *HeatMap kết hợp với ma trận tương quan*           
   ![correlation_heatmap_corrected](https://github.com/user-attachments/assets/d118ece4-5de5-47e6-85f4-7103d80f168c)                
 
