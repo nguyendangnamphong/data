@@ -160,7 +160,41 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
   + Các nguyên tố vi lượng ít xuất hiện, cho thấy chúng không phải là trọng tâm trong đa số hợp kim đồng.                 
           
   *HeatMap kết hợp với ma trận tương quan*           
-  ![correlation_heatmap_corrected](https://github.com/user-attachments/assets/d118ece4-5de5-47e6-85f4-7103d80f168c)                
+  ![correlation_heatmap_corrected](https://github.com/user-attachments/assets/d118ece4-5de5-47e6-85f4-7103d80f168c)                  
+                                                                       
+                                                         
+  **Vấn đề có nhiều giá trị 0**                                                 
+  Những chất chiếm số lượng 0% trong hợp kim của đồng sẽ được để giá trị là 0                                   
+  *Kết quả*: Chúng kiến cho ma trận hiệp phương sai bị lỗi                                                   
+  *Chi tiết số lượng giá trị 0 trên các chất*:                                                            
+  Số lượng giá trị 0 trong cột Cu: 0
++ Số lượng giá trị 0 trong cột Al: 1094
++ Số lượng giá trị 0 trong cột Ag: 1669
++ Số lượng giá trị 0 trong cột B: 1652 
++ Số lượng giá trị 0 trong cột Be: 1642
++ Số lượng giá trị 0 trong cột Ca: 1690
++ Số lượng giá trị 0 trong cột Co: 1545
++ Số lượng giá trị 0 trong cột Ce: 1659
++ Số lượng giá trị 0 trong cột Cr: 815 
++ Số lượng giá trị 0 trong cột Fe: 1649
++ Số lượng giá trị 0 trong cột Hf: 1690
++ Số lượng giá trị 0 trong cột La: 1690
++ Số lượng giá trị 0 trong cột Mg: 790
++ Số lượng giá trị 0 trong cột Mn: 1690
++ Số lượng giá trị 0 trong cột Mo: 1690
++ Số lượng giá trị 0 trong cột Nb: 1690
++ Số lượng giá trị 0 trong cột Nd: 1690
++ Số lượng giá trị 0 trong cột Ni: 284
++ Số lượng giá trị 0 trong cột P: 1633
++ Số lượng giá trị 0 trong cột Pb: 1690
++ Số lượng giá trị 0 trong cột Pr: 1690
++ Số lượng giá trị 0 trong cột Si: 294
++ Số lượng giá trị 0 trong cột Sn: 1689
++ Số lượng giá trị 0 trong cột Ti: 1552
++ Số lượng giá trị 0 trong cột V: 1654
++ Số lượng giá trị 0 trong cột Zn: 1647
++ Số lượng giá trị 0 trong cột Zr: 1525
+*Giải pháp*: file final_data: Bỏ tất cả các chất có số lượng giá trị 0 lớn (>1500) đi.
 
             
                  
