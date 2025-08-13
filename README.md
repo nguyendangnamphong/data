@@ -165,9 +165,10 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
                                                          
   **Vấn đề có nhiều giá trị 0**                                                 
   Những chất chiếm số lượng 0% trong hợp kim của đồng sẽ được để giá trị là 0                                   
-  *Kết quả*: Chúng kiến cho ma trận hiệp phương sai bị lỗi                                                   
+  *Kết quả*: Chúng khiến cho ma trận hiệp phương sai bị lỗi                                      
+  
   *Chi tiết số lượng giá trị 0 trên các chất*:                                                            
-  Số lượng giá trị 0 trong cột Cu: 0
++ Số lượng giá trị 0 trong cột Cu: 0
 + Số lượng giá trị 0 trong cột Al: 1094
 + Số lượng giá trị 0 trong cột Ag: 1669
 + Số lượng giá trị 0 trong cột B: 1652 
@@ -194,6 +195,7 @@ Kết quả DML sẽ cho biết mức độ ảnh hưởng của %Ni lên hiệu
 + Số lượng giá trị 0 trong cột V: 1654
 + Số lượng giá trị 0 trong cột Zn: 1647
 + Số lượng giá trị 0 trong cột Zr: 1525
+                                                       
 *Giải pháp*: file final_data: Bỏ tất cả các chất có số lượng giá trị 0 lớn (>1500) đi.
 
             
